@@ -67,7 +67,7 @@ elif v.lower() == 'h':
             print("Nama {0} Tidak Ditemukan".format(nama))
 ```
 - Apabila kita menginput 'h' maka kita akan diminta menginput nama yang akan dihapus. Jika nama ada di dalam dictionary, maka system akan menghapus keys/nama tersebut beserta valuesnya pada statement ```del Data[nama]```.
-![Gambar1](pk6/6.6.png)
+
 - Membuat syntax untuk mencari data
 ```
 elif v.lower() == 'c':
@@ -86,7 +86,7 @@ elif v.lower() == 'c':
             print("Nama {0} Tidak Ditemukan".format(nama))
 ```
 - Apabila kita menginputkan 'c' maka kita akan diminta untuk memasukkan nama yang akan dicari. Apabila nama yang dicari ada di dalam dictionary maka outputnya akan menampilkan data dari nama tersebut.
-![Gambar1](pk6/6.7.png)
+
 - Membuat syntax untuk melihat atau menampilkan data.
 ```
 elif v.lower() == 'l':
@@ -112,14 +112,14 @@ elif v.lower() == 'l':
             print("="*78)
 ```
 - Apabila kita menginput 'l' maka sistem akan menampilkan data - data yang sudah kita masukkan. Jika kita belum memasukkan data maka outputnya menjadi "TIDAK ADA DATA".
-![Gambar1](pk6/6.8.png)
+
 - Membuat syntax untuk menghentikan perulangan.
 ```
  elif v.lower() == 'k':
             break
 ```
 - Apabila kita menginput 'k' maka program akan langsung berhenti.
-![Gambar1](pk6/6.9.png)
+
 - Membuat syntax untuk apabila memilih pilihan yang tidak ada di menu.
 ```
  else:
